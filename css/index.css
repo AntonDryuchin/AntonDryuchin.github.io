@@ -1,0 +1,81 @@
+header {
+  padding: 15px 5px;
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(140, 155, 142);
+  font-size: 25px;
+}
+
+.menu {
+  padding: 14px 8px;
+  background: none;
+}
+
+.menu:hover {
+  padding: 14px 8px;
+  background-color: rgb(98, 143, 106);
+}
+
+a {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  background-color: rgb(120, 145, 124);
+}
+
+a:hover {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  background-color: rgb(98, 143, 106);
+}
+
+a:visited {
+  color: rgb(66, 48, 85);
+  text-decoration: none;
+}
+
+.photo {
+  background: none;
+}
+
+.theme {
+  font-weight: bolder;
+}
+
+img {
+  margin: 5px 8px;
+}
+
+.icon {
+  background: none;
+}
+
+.icon:hover {
+  background: none;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  background: linear-gradient(rgb(172, 191, 175), rgb(140, 155, 142));
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.content-container {
+  display: flex;
+}
+
+.contacts-container {
+  display: flex;
+  align-items: end;
+}
+
+.icon {
+  margin-bottom: 0px;
+}
+
+footer {
+  display: flex;
+  margin-right: 10px;
+  justify-content: space-between;
+  font-size: 12px;
+}
